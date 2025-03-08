@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "vbA2uw2bCqE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\QrCodeGenerator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\krati\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\krati\\.nuget\\packages\\qrcoder\\1.6.0\\qrcoder.1.6.0.nupkg.sha512",
+    "C:\\Users\\krati\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
