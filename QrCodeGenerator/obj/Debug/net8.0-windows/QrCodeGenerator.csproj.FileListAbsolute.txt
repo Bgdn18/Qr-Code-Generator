@@ -18,3 +18,4 @@ C:\Users\krati\source\repos\QrCodeGenerator\QrCodeGenerator\obj\Debug\net8.0-win
 C:\Users\krati\source\repos\QrCodeGenerator\QrCodeGenerator\obj\Debug\net8.0-windows\ref\QrCodeGenerator.dll
 C:\Users\krati\source\repos\QrCodeGenerator\QrCodeGenerator\obj\Debug\net8.0-windows\QrCodeGenerator.Generator.resources
 C:\Users\krati\source\repos\QrCodeGenerator\QrCodeGenerator\obj\Debug\net8.0-windows\QrCodeGenerator.Properties.Resources.resources
+C:\Users\krati\source\repos\QrCodeGenerator\QrCodeGenerator\obj\Debug\net8.0-windows\QrCodeGenerator.sourcelink.json

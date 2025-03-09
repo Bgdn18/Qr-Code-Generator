@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Generator));
             pictureBoxQRCode = new PictureBox();
-            button1 = new Button();
             textBox1 = new TextBox();
             SaveQRCode = new Button();
             menuStrip1 = new MenuStrip();
@@ -54,19 +53,6 @@
             pictureBoxQRCode.TabIndex = 0;
             pictureBoxQRCode.TabStop = false;
             // 
-            // button1
-            // 
-            button1.Anchor = AnchorStyles.Bottom;
-            button1.Cursor = Cursors.Hand;
-            button1.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.Location = new Point(12, 336);
-            button1.Name = "button1";
-            button1.Size = new Size(370, 65);
-            button1.TabIndex = 1;
-            button1.Text = "Generate Qr Code";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += button1_Click;
-            // 
             // textBox1
             // 
             textBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
@@ -82,9 +68,9 @@
             SaveQRCode.Anchor = AnchorStyles.Bottom;
             SaveQRCode.Cursor = Cursors.Hand;
             SaveQRCode.Font = new Font("Comic Sans MS", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            SaveQRCode.Location = new Point(388, 336);
+            SaveQRCode.Location = new Point(12, 336);
             SaveQRCode.Name = "SaveQRCode";
-            SaveQRCode.Size = new Size(241, 65);
+            SaveQRCode.Size = new Size(617, 65);
             SaveQRCode.TabIndex = 3;
             SaveQRCode.Text = "Save Qr Code";
             SaveQRCode.UseVisualStyleBackColor = true;
@@ -142,7 +128,6 @@
             ClientSize = new Size(641, 413);
             Controls.Add(SaveQRCode);
             Controls.Add(textBox1);
-            Controls.Add(button1);
             Controls.Add(pictureBoxQRCode);
             Controls.Add(menuStrip1);
             Icon = (Icon)resources.GetObject("$this.Icon");
@@ -159,7 +144,6 @@
         #endregion
 
         private PictureBox pictureBoxQRCode;
-        private Button button1;
         private TextBox textBox1;
         private Button SaveQRCode;
         private MenuStrip menuStrip1;

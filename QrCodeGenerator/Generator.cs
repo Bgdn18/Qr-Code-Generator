@@ -1,23 +1,49 @@
-﻿namespace QrCodeGenerator
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+using QRCoder;
+
+namespace QrCodeGenerator
 {
     public partial class Generator : Form
     {
         public Generator()
         {
             InitializeComponent();
+
+            // Подписываемся на событие TextChanged для textBox1
+            textBox1.TextChanged += TextBox1_TextChanged;
         }
 
-        //Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  
-        private void button1_Click(object sender, EventArgs e)
+        // Метод для генерации QR-кода
+        private void GenerateQRCode()
         {
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                // Если текстовое поле пустое, очищаем PictureBox
+                pictureBoxQRCode.Image = null;
+                return;
+            }
+
             QRCoder.QRCodeGenerator QRgen = new QRCoder.QRCodeGenerator();
             var QRdata = QRgen.CreateQrCode(textBox1.Text, QRCoder.QRCodeGenerator.ECCLevel.H);
             var QRcode = new QRCoder.QRCode(QRdata);
 
             pictureBoxQRCode.Image = QRcode.GetGraphic(50);
         }
-        //Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  
 
+        // Обработчик события TextChanged для textBox1
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            GenerateQRCode();
+        }
+
+        //Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  
+        private void button1_Click(object sender, EventArgs e)
+        {
+            GenerateQRCode();
+        }
+        //Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  Generate QR-CODE  
 
         //SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE SAVE QR-CODE 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -25,7 +51,7 @@
             // Проверяем, есть ли изображение в PictureBox
             if (pictureBoxQRCode.Image == null)
             {
-                MessageBox.Show("There is no image to save!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("There is no image to save", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -79,10 +105,8 @@
         //ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Version 1.0", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Version 1.1", "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         //ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT 
-
-
     }
 }

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{292A7B87-45BD-4227-90EA-393D8672694B}|QrCodeGenerator\\QrCodeGenerator.csproj|c:\\users\\krati\\source\\repos\\qrcodegenerator\\qrcodegenerator\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{292A7B87-45BD-4227-90EA-393D8672694B}|QrCodeGenerator\\QrCodeGenerator.csproj|C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\qrcodegenerator\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{292A7B87-45BD-4227-90EA-393D8672694B}|QrCodeGenerator\\QrCodeGenerator.csproj|solutionrelative:qrcodegenerator\\generator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
@@ -34,8 +34,8 @@
               "Title": "Generator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs",
               "RelativeDocumentMoniker": "QrCodeGenerator\\Generator.cs",
-              "ToolTip": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "QrCodeGenerator\\Generator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "QrCodeGenerator\\Generator.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T16:07:51.228Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
@@ -46,9 +46,9 @@
               "Title": "Generator.cs",
               "DocumentMoniker": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs",
               "RelativeDocumentMoniker": "QrCodeGenerator\\Generator.cs",
-              "ToolTip": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs*",
-              "RelativeToolTip": "QrCodeGenerator\\Generator.cs*",
-              "ViewState": "AgIAADsAAAAAAAAAAAAnwFUAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\krati\\source\\repos\\QrCodeGenerator\\QrCodeGenerator\\Generator.cs",
+              "RelativeToolTip": "QrCodeGenerator\\Generator.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-08T15:30:36.625Z",
               "EditorCaption": ""
